@@ -53,3 +53,8 @@
     padding: 0;
   }
 }
+@media screen and (max-width: 551px) {
+  .Item .heading .price {
+    font-size: 18px;
+  }
+}

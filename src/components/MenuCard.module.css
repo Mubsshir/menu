@@ -55,3 +55,14 @@
     grid-template-columns: 100%;
   }
 }
+
+@media screen and (max-width: 551px) {
+  .MenuCard nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
