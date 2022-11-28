@@ -22,9 +22,11 @@
   margin: 5px auto;
 }
 .MenuCard nav ul {
+  padding: 0;
   list-style: none;
   display: flex;
   margin-bottom: 100px;
+  justify-content: center;
 }
 .MenuCard nav ul li {
   margin: 0 15px;
@@ -32,6 +34,9 @@
   padding: 8px 20px;
   cursor: pointer;
   text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 5px;
 }
 
 .MenuCard nav ul li:hover {
