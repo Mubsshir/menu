@@ -1,0 +1,7 @@
+.Item {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.Item img {
+  height: 200px;
+}
